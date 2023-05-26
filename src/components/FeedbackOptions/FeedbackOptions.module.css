@@ -1,0 +1,16 @@
+.btn {
+  padding: 6px 22px;
+  background: rgb(209, 209, 209);
+  font-weight: 700;
+  font-size: 16px;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
