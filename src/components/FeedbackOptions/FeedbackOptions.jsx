@@ -1,5 +1,6 @@
 import propTypes from 'prop-types';
 import css from './FeedbackOptions.module.css';
+import clsx from 'clsx';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
@@ -7,7 +8,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
       {options.map(el => {
         return (
           <button
-            className={css.btn}
+            className={clsx(css.btn, css[el])}
             onClick={onLeaveFeedback}
             key={el}
             type="button"

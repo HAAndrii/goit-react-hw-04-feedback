@@ -3,3 +3,10 @@
   font-weight: 700;
   font-size: 20px;
 }
+
+.text.good {
+  color: green;
+}
+.text.bad {
+  color: lightcoral;
+}

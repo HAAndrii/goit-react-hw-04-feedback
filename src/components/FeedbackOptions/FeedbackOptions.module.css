@@ -7,6 +7,14 @@
   border-radius: 4px;
 }
 
+.btn.good {
+  background-color: lightgreen;
+}
+
+.btn.bad {
+  background-color: lightcoral;
+}
+
 .btn:not(:last-child) {
   margin-right: 15px;
 }
